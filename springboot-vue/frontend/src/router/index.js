@@ -5,6 +5,10 @@ import Service from '@/components/Service'
 import Bootstrap from '@/components/Bootstrap'
 import User from '@/components/User'
 
+// third party lib
+import $ from 'jquery'
+import webix from 'webix'
+
 Vue.use(Router)
 
 export default new Router({

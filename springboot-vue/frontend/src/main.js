@@ -12,6 +12,10 @@ Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+(function a () {
+  console.log(111111111)
+}())
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

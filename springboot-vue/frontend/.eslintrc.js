@@ -10,6 +10,10 @@ module.exports = {
     browser: true
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
+  globals: {
+    'jQuery' : true,
+    '$' : true
+  },
   extends: 'standard',
   // required to lint *.vue files
   plugins: [
@@ -23,6 +27,8 @@ module.exports = {
     'generator-star-spacing': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'no-extra-bind': 0
+    'no-extra-bind': 0,
+    "no-unused-vars": 0
+
   }
 };
